@@ -1,17 +1,40 @@
 main {
-    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
     color: #fff;
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 50%;
     justify-self: center;
-}
-
-main:hover {
+  }
+  
+  main:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     background: linear-gradient(135deg, #feb47b, #ff7e5f);
-}
+  }
+  
+  .merkezi {
+    margin: auto;
+    background-color: #f0f0b8;
+  }
+  
+  div {
+    color: black;
+    width: 50%;
+    margin: auto;
+    background-color: #f0f0b8;
+  }
+  
+  .mycontainer {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .mycontainer div {
+    width: 33%;
+    float: left;
+  }
+  
